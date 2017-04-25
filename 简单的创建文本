@@ -4,3 +4,15 @@ int main()
 printf("hello world!");
 return 0;
 }
+
+#include<stdio.h>
+int main()
+{
+int i,sum=0;
+for(i=0;i<10;i++)
+{
+sum+=i;
+printf("最后的和是：\n");
+}
+return 0 ;
+}
